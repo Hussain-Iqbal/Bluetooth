@@ -10,8 +10,7 @@ AF_DCMotor motor3(MOTOR_3, MOTOR12_64KHZ); // create motor object, 64KHz pwm
 AF_DCMotor motor4(MOTOR_4, MOTOR12_64KHZ);
 
 char value;
-long distance;
-int distance1;
+
 
 void setup(){
   Serial.begin(9600);
