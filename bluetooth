@@ -27,8 +27,7 @@ void loop(){
     Serial.println(value);
     Serial.print("\n");
 
-    distance1=data();
-    Serial.println(distance1);
+
 
 
     if(value=='1'){
