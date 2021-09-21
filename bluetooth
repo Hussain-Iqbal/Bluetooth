@@ -8,8 +8,7 @@ AF_DCMotor motor1(MOTOR_1, MOTOR12_64KHZ); // create motor object, 64KHz pwm
 AF_DCMotor motor2(MOTOR_2, MOTOR12_64KHZ); // create motor object, 64KHz pwm
 AF_DCMotor motor3(MOTOR_3, MOTOR12_64KHZ); // create motor object, 64KHz pwm
 AF_DCMotor motor4(MOTOR_4, MOTOR12_64KHZ);
-#define echopin A4 // echo pin
-#define trigpin A5 // Trigger pin// create motor object, 64KHz pwm
+
 char value;
 long distance;
 int distance1;
